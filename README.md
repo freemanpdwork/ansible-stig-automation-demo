@@ -1,0 +1,1 @@
+# ansible-stig-automation-demo
