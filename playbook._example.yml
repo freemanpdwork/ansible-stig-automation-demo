@@ -1,0 +1,7 @@
+---
+- name: run RHEL 8 STIG
+  hosts: all
+  strategy: free
+  become: true
+  roles:
+     - { role: RedHatOfficial.rhel8_stig }
